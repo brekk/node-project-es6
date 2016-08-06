@@ -1,0 +1,88 @@
+{
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "space": 2,
+  "semicolon": false,
+  "esnext": true,
+  "ecmaFeatures": {
+    "jsx": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 7,
+    "sourceType": "module"
+  },
+  "ignores": ["*.js", "build/**"],
+  "rules": {
+    "no-var": 2,
+    "eqeqeq": [2, "smart"],
+    "babel/arrow-parens": [2, "always"],
+    "consistent-this": 0,
+    "func-names": [2],
+    "generator-star-spacing": [2, "after"],
+    "indent": [2, 2],
+    "jsx-quotes": [1, "prefer-double"],
+    "quotes": [2, "backtick"],
+    "max-len": [1, 100, 2],
+    "new-cap": [2, {"capIsNew": false}],
+    "no-trailing-spaces": [2, { "skipBlankLines": true }],
+    "no-unused-vars": [2, {"vars": "all", "varsIgnorePattern": "^__style" }],
+    "object-curly-spacing": 0,
+    "one-var": 0,
+    "operator-linebreak": [2, "after"],
+    "prefer-reflect": 0,
+    "space-before-function-paren": [2, "never"],
+    "strict": 0,
+    "lodash-fp/use-fp": "error",
+    "lodash-fp/consistent-compose": ["error", "flow"],
+    "lodash-fp/consistent-name": ["error", "fp"],
+    "lodash-fp/no-argumentless-calls": "error",
+    "lodash-fp/no-chain": "error",
+    "lodash-fp/no-extraneous-args": "error",
+    "lodash-fp/no-extraneous-function-wrapping": "error",
+    "lodash-fp/no-extraneous-iteratee-args": "error",
+    "lodash-fp/no-for-each": "off",
+    "lodash-fp/no-partial-of-curried": "error",
+    "lodash-fp/no-single-composition": "error",
+    "lodash-fp/no-submodule-destructuring": "error",
+    "lodash-fp/no-unused-result": "error",
+    "lodash-fp/prefer-compact": "error",
+    "lodash-fp/prefer-get": "error",
+    "lodash-fp/prefer-identity": [
+      "error",
+      {
+        "arrowFunctions": true
+      }
+    ],
+    "lodash-fp/preferred-alias": [
+      "error",
+      {
+        "overrides": [
+          "map",
+          "all",
+          "allPass",
+          "any",
+          "anyPass",
+          "apply",
+          "set",
+          "get",
+          "first",
+          "last",
+          "filter",
+          "extend",
+          "equals",
+          "toPairs",
+          "toPairsIn",
+          "invert",
+          "pick",
+          "at",
+          "rest",
+          "flatten"
+        ]
+      }
+    ]
+  },
+  "extends": ["standard"],
+  "plugins": ["babel", "lodash-fp"]
+}

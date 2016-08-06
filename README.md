@@ -1,1 +1,2 @@
-# node-es6-project-template
+# es6-template
+Template for making new node projects
