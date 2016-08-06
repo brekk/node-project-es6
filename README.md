@@ -1,0 +1,1 @@
+# node-es6-project-template
