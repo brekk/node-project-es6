@@ -61,6 +61,7 @@
   "author": "brekk",
   "license": "MIT",
   "devDependencies": {
+    "ava": "^0.16.0",
     "babel-cli": "^6.11.4",
     "babel-eslint": "^6.1.2",
     "babel-plugin-syntax-async-functions": "^6.13.0",
@@ -78,7 +79,7 @@
     "nyc": "^7.1.0"
   },
   "dependencies": {
-    "f-utility": "^1.0.2",
+    "f-utility": "^1.0.4",
     "lodash": "^4.14.1"
   }
 }
